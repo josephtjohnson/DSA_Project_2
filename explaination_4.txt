@@ -1,0 +1,10 @@
+Description:
+List due to the ease of appending and traversing.
+
+
+Time complexity: 
+O(n)
+
+ 
+Space complexity:
+O(n)

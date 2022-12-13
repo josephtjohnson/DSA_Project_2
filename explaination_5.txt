@@ -1,0 +1,10 @@
+Description:
+Linked List due to the ability to link subsequent blocks
+
+
+Time complexity: 
+O(n)
+
+ 
+Space complexity:
+O(n)

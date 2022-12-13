@@ -1,0 +1,10 @@
+Description:
+Recursion was used due to the redundancy in the action.
+
+
+Time complexity: 
+O(n^2)
+
+ 
+Space complexity:
+O(n)

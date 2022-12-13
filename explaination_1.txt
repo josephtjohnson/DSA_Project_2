@@ -1,0 +1,10 @@
+Description:
+Used Linked List due to the ease of insertion and deletion.
+
+
+Time complexity: 
+O(1)
+
+ 
+Space complexity:
+O(n)
