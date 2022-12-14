@@ -1,10 +1,14 @@
 Description:
-Linked List due to the ability to link subsequent blocks
+To solve this issue we make use of the list data structure. This allows us to easily traverse each
+item in the data structure. Because we are performing an operation on lists nested within other lists,
+recursion became the clear choice.
 
 
 Time complexity: 
-O(n)
+This algorithm is entirely dependent upon the size of the class variables within the group being evaluated.
+Because is depends upon input size this time complexity would result in O(n).
 
  
 Space complexity:
-O(n)
+The space complexity for this algorithm is consistent with how many times it is called (m) but does not
+create data structures depending on input size O(1). Thus the space complexity results in O(m).
