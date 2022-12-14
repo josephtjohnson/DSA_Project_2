@@ -1,10 +1,16 @@
 Description:
-Used Linked List due to the ease of insertion and deletion.
+The LRU cache implementation utilizes a Doubly Linked List to allow for forward or backward traversal.
+This implementation also takes advantage of map functionality, such as O(1) get and set time complexity.
+If a map were not utilized we would not be able to achieve this time complexity. 
 
 
 Time complexity: 
-O(1)
+By using the map and doubly linked list we can acheive a time complexity of O(1) for both get and set
+operations. If we were not using a doubly linked list we would be unable to achieve O(1) for set operations
+just like we wouldn't be able to achieve O(1) for get operations without the map.
 
  
 Space complexity:
-O(n)
+Becasue we are creating a single cache and saving new nodes as they are produced, our space complexity
+remains linear O(n). New data structures are not being created depending upon the size of the input.
+
