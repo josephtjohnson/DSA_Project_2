@@ -1,10 +1,15 @@
 Description:
-Recursion was used due to the redundancy in the action.
+This problem required the same operation to be performed until all directories had been searched.
+Because of this, recursion was the ideal candidate. This algorithm takes in the file extension being
+sought along with the path and returns a list of file names located in the directory and all subdirectories.
+
 
 
 Time complexity: 
-O(n^2)
+This function is being called n times until the base case is reached where n is equal to the number
+of directories to traverse. This gives us a time complexity of O(n).
 
  
 Space complexity:
-O(n)
+This function will also be O(n) as data structure creation and memory usage are completely dependent
+upon the number of directories being traversed.
