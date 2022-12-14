@@ -1,10 +1,14 @@
 Description:
-List and Set due to the ability to sort and eliminate duplicate elements.
+This algorithm takes in two lists and returns their unique elements that are present in each list
+(intersection) and concatenates the list (union). To accomplish this it will take advantage of the
+list and set data structures. By utilizing the set data structure in the intersection function, we can
+ensure no duplicate values are present in our final result.
 
 
 Time complexity: 
-O(n)
+All operations are input dependent thus giving us a time complexity of O(n). 
 
  
 Space complexity:
-O(n)
+Space complexity too is input dependent for both the intersection and union functions 
+thus giving them O(n).
