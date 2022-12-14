@@ -7,7 +7,8 @@ sought along with the path and returns a list of file names located in the direc
 
 Time complexity: 
 This function is being called n times until the base case is reached where n is equal to the number
-of directories to traverse. This gives us a time complexity of O(n).
+of directories to traverse. Each time it is called the worst case scenario is that there will be nested for
+loops thus giving this a O(n^2).
 
  
 Space complexity:
